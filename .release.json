@@ -1,0 +1,20 @@
+{
+  "increment": "patch",
+  "buildCommand": "yarn pack",
+  "requireCleanWorkingDir": false,
+  "src": {
+    "commitMessage": "Release %s",
+    "tagName": "%s",
+    "tagAnnotation": "Release %s",
+    "pushRepo": null,
+    "beforeStartCommand": false,
+    "beforeStageCommand": false,
+    "afterReleaseCommand": "rm ./*.tgz",
+    "githubAssets": [
+      "*.tgz"
+    ]
+  },
+  "dist": {
+    "baseDir": null
+  }
+}
