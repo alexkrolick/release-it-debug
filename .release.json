@@ -16,5 +16,9 @@
   },
   "dist": {
     "baseDir": null
+  },
+  "github": {
+    "release": true,
+    "tokenRef": "GITHUB_RELEASE_IT_TOKEN"
   }
 }
