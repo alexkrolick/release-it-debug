@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Alex Krolick <alexander.krolick@gmail.com>",
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "release-it": "^2.8.5"
   },
